@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Shop Item - Start Bootstrap Template</title>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+<!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">ORINOCO</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">
+                                Acceuil
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Panier</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+<!-- Page Content-->
+<main>
+<div class="cart-page-container">
+    <div class="container">
+        <section class="mt-5 mb-4">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="card wish-list mb-4">
+                        <div class="card-body">
+                            <h5 class="mb-4" id="number-of-items">.</h5>
+                            <div id="productCard" class="row mb-4" ></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4"> 
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="mb-3">Mon panier</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class=" display-5 d-flex justify-content-between align-items-center border-0 px-0 mb-3"
+                                    id="total-amount-order">
+                                </li>
+                                <li
+                                    class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                    Livraison
+                                    <span>Gratuite</span>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center border-0 px-0 mb-3"
+                                id="clear-cart">
+                            </div>
+                            <form name="customer-information" id="customer-form" class="row g-3 w-80">
+                                <div class="col-md-6">
+                                    <label for="firstname" >Prénom :</label>
+                                    <input class="w-100 mb-4" type ="text" id="firstname" name="firstname" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="lastname">Nom :</label>
+                                    <input  class="w-100 mb-4" type ="text" id="lastname" name="lastname" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="address">Adresse : </label>
+                                    <textarea class="w-100 mb-4" id="address" name="address" required></textarea>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="city">Ville :</label>
+                                    <input class="w-100 mb-4" type="text" id="city" name="city" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="zipcode">Code Postal :</label>
+                                    <input class="w-100 mb-4" type="text" id="zipcode" name="zipcode" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="email">E-mail :</label>
+                                    <input class="w-100 mb-4" type="text" id="email" name="email" required>
+                                </div>
+                                <div class="col-12">
+                                    <button id="submitButton" type="submit" class="btn btn-danger">Valider ma commande</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>  
+</div>
+</main>  
+<!-- Footer-->
+  <footer class="py-5 bg-dark">
+    <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- Core theme JS-->
+<script src="panier.js"></script>
+</body>
+</html>
